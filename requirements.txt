@@ -1,0 +1,18 @@
+# GPU via DirectML (nativo no Windows 10/11, sem CUDA Toolkit necessário)
+onnxruntime-directml>=1.24.0
+
+# Reconhecimento facial (ArcFace/RetinaFace via ONNX)
+insightface>=1.0.1
+
+# Captura de vídeo e exibição
+opencv-python>=4.13.0
+
+# Utilitários
+numpy>=2.0.0
+python-dotenv>=1.0.0
+scipy>=1.17.0
+scikit-image>=0.26.0
+
+# Alternativa com CUDA (se CUDA Toolkit 12.x instalado):
+# pip uninstall onnxruntime-directml
+# pip install onnxruntime-gpu>=1.27.0

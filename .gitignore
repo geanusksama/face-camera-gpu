@@ -1,0 +1,32 @@
+# Ambiente Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Credenciais e configuração local
+.env
+
+# Cache de embeddings (gerado localmente)
+embeddings_cache.pkl
+embeddings_cache_*.pkl
+
+# Modelos InsightFace (baixados automaticamente)
+*.onnx
+*.dat
+
+# Arquivos temporários
+*.tmp
+*.log
+temp_*
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Windows
+Thumbs.db
+desktop.ini
